@@ -1,0 +1,43 @@
+1-
+while True:
+    n = int(input('Nota de 0 a 10: '))
+    if n >= 0 and n <= 10:
+        break
+    if n < 0 or n > 10:
+        print ('Nota inválida.')
+
+2-
+while True:
+    u = input('Usuário: ')
+    s = input('Senha: ')
+    if u == s:
+        print ('Erro. Senha deve ser diferente do usuário.')
+    if u != s:
+        break
+
+3- 
+a = 80000
+b = 200000
+anos = 0
+while a < b:
+    a = a + a*0.03
+    b = b + b*0.015
+    anos = anos + 1
+print (f'São necessários {anos} anos.')
+
+4-
+n = int(input('Número: '))
+a, b = 1, 1
+cont = 1
+while cont <= n-2:
+    a, b = b, a + b
+    cont = cont + 1
+print (b)
+
+5-
+a = int(input('Primeiro número: '))
+b = int(input('Segundo número: '))
+while a % b != 0:
+     a , b = b, a%b
+if a % b == 0:
+    print ('Máximo divisor comum:', b)

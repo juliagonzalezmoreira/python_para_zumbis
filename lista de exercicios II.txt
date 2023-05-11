@@ -1,0 +1,85 @@
+1-
+a = int(input("Primeiro lado: "))
+b = int(input("Segundo lado: "))
+c = int(input("Terceiro lado: "))
+
+if a == b and b == c:
+    print ('O triângulo é equilátero.')
+elif a != b and c and b != c:
+    print ('O triângulo é escaleno.')
+else:
+    print ('O triângulo é isósceles.')
+
+2-
+year = int(input('Ano:'))
+if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
+    print ('Bissexto!')
+else:
+    print ('Não bissexto.')
+
+3-
+peso = int(input('Peso: '))
+
+if peso <= 50:
+    print ('ZERO')
+else:
+    excesso = (peso - 50)
+    multa = 4
+    print (excesso * multa)
+
+4-
+a = int(input("Primeiro valor: "))
+b = int(input("Segundo valor: "))
+c = int(input("Terceiro valor: "))
+
+if a > b and a > c:
+    print ("O primeiro número é o maior!")
+if b > a and b > c:
+    print ("O segundo número é o maior!")
+if c > a and c > b:
+    print ("O terceiro número é o maior!")
+
+5-
+a = int(input("Primeiro valor: "))
+b = int(input("Segundo valor: "))
+c = int(input("Terceiro valor: "))
+    
+maior = menor = a
+if b > maior:
+    maior = b
+if c > maior:
+    maior = c
+
+if b < menor:
+    menor = b
+if c < menor:
+    c = menor
+print(f'Maior: {maior} e Menor: {menor}')
+
+6-
+vh = float(input('Valor por hora: '))
+hm = int(input ('Horas por mês: '))
+sb = vh * hm
+ir = 0.11 * sb
+inss = 0.08 * sb
+s = 0.05 * sb 
+sl = sb - ir - inss - s
+print ('Salário bruto: ', sb)
+print ('Imposto de renda: ', ir)
+print ('INSS: ', inss)
+print ('Sindicato: ', s)
+print ('Salário Líquido: ', sl)
+
+7-
+m = int(input('Metros: '))
+if m % 54 == 0:
+    latas = m / 54
+else:
+    latas = int(m/54) + 1
+
+v = latas * 80
+print (f'{latas} latas.')
+print (f'Total: R$ {valor:.2f')
+
+
+7-
