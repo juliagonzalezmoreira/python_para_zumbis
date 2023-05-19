@@ -1,4 +1,4 @@
-<h1 align="center"> Pyhton para Zumbis 🧟‍♀️  </h1>
+<h1 align="center"> Python para Zumbis 🧟‍♀️  </h1>
 
 * Listas de exercícios de Python das aulas de Algoritmos e Lógica de Programação, ministradas pelo [Professor Masanori](https://github.com/fmasanori).
 
