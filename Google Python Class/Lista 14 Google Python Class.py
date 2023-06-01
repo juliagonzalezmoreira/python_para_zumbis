@@ -22,7 +22,7 @@ def remove_iguais(nums):
 def cripto(frase):
   frase = frase.split()
   for x in frase:
-    print(''.join([''.join(sorted(set(x)))]), end=' ')"
+    return ' '.join([''.join(sorted(set(x))) for x in frase])
 
 # F. Derivada de um polinômio
 # Os coeficientes de um polinômio estão numa lista na ordem do seu grau.
